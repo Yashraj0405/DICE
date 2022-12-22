@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".game.FragmentTwo">
+
+
+        <ImageView
+            android:id="@+id/dice_image"
+            android:layout_width="227dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dice_1" />
+
+        <Button
+            android:id="@+id/Even_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="108dp"
+            android:text="@string/Even_Roll"
+            android:textColor="@color/purple"
+            app:layout_constraintEnd_toStartOf="@+id/RandomRoll_Button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dice_image" />
+
+        <Button
+            android:id="@+id/RandomRoll_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/Random_roll"
+            android:textColor="@color/purple"
+            app:layout_constraintBaseline_toBaselineOf="@+id/Even_Button"
+            app:layout_constraintEnd_toStartOf="@+id/Odd_Button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/Even_Button" />
+
+        <Button
+            android:id="@+id/Odd_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/Odd_roll"
+            android:textColor="@color/purple"
+            app:layout_constraintBaseline_toBaselineOf="@+id/RandomRoll_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/RandomRoll_Button" />
+
+
+        <Button
+            android:id="@+id/Exit_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:text="@string/Exit_Button"
+            android:textColor="@color/purple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/diceNumber" />
+
+        <TextView
+            android:id="@+id/diceNumber"
+            android:layout_width="159dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="44dp"
+            android:text="DICE ROLL NUMBER"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RandomRoll_Button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

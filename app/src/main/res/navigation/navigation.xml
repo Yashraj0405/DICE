@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentOne">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.android.navigation.home.FragmentOne"
+        android:label="fragment_one"
+        tools:layout="@layout/fragment_one" >
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentTwo"
+            app:destination="@id/fragmentTwo"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.example.android.navigation.game.FragmentTwo"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" >
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentThree"
+            app:destination="@id/fragmentThree"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.example.android.navigation.gameFinish.FragmentThree"
+        android:label="fragment_three"
+        tools:layout="@layout/fragment_three" >
+        <action
+            android:id="@+id/action_fragmentThree_to_fragmentOne"
+            app:destination="@id/fragmentOne"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <argument
+            android:name="rollNumber"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAbout"
+        android:name="com.example.android.navigation.navDrawer.FragmentAbout"
+        android:label="@string/Title"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/fragmentRule"
+        android:name="com.example.android.navigation.navDrawer.FragmentRule"
+        android:label="@string/Rule_text"
+        tools:layout="@layout/fragment_rule" />
+</navigation>

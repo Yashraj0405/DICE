@@ -1,0 +1,58 @@
+<!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">DICE ROLLER 2.0</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Android Trivia</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules</string>
+    <string name="about">ABOUT</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Dice_Roller">DICE ROLLER</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Play">PLAY</string>
+    <string name="Even_Roll">EVEN ROLL</string>
+    <string name="Random_roll">LET\'S ROLL</string>
+    <string name="Odd_roll">ODD ROLL</string>
+    <string name="Exit_Button">EXIT</string>
+    <string name="Thank_you">THANK\'S FOR ROLLING</string>
+    <string name="Play_again">ROLL AGAIN</string>
+    <string name="about_text">DICE 2.0 is a app which covers concepts of LAYOUT and APP NAVIGATION. It was developed to understand these concepts thoroughly.</string>
+    <string name="From_text">FROM</string>
+    <string name="YP">YP</string>
+    <string name="title_about_dice">About</string>
+    <string name="Title">ABOUT</string>
+    <string name="Enter_your_name">ENTER YOUR NAME</string>
+    <string name="ENTER">ENTER</string>
+    <string name="share_success_text">I created a share button to show that by aap has this feature too.</string>
+    <string name="Rule_text">HOW TO ROLL\n\nDICE 2.0</string>
+    <string name="rule_steps">Enter Yor Name and click on PLAY button.\n\nThere are three types of Roll button.\n\nEVEN ROLL: By clicking this, you will roll dice for an even outcome.\n\nLETS ROLL: By clicking this, you will roll dice for random outcome.\n\nODD ROLL: By clicking this, you will roll dice for odd outcome.\n\nEXIT BUTTON: Once done rolling dice you can exit it by clicking exit button.</string>
+    <string name="Rule">RULE\'S</string>
+</resources>
